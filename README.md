@@ -26,10 +26,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [AWESOME BOOK LIST] <a name="about-project"></a>
+# 📖 [TODO LIST] <a name="about-project"></a>
 
-> This project is a website where we can add books it is developed using Html5 Css3 and ES-6.
-> This project has add and remove book functionality.
+> This project is a website where we can add our list of activities that we have to do.
+> This project is developed by using Html5 Css3 and ES-6.
+> Here in this project you can add new tasks.
+> Here in this project your can remove completed tasks
+> This project has add and remove functionality.
 > This project stores data in local storage.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -44,7 +47,6 @@
     <li><a href="https://www.w3.org/TR/2014/REC-html5-20141028/">HTML 5</a></li>
     <li><a href="https://www.w3.org/Style/CSS/current-work.en.html">CSS 3</a></li>
     <li><a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/">JavaScript5</a></li>
-    <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5</a></li>
   </ul>
 </details>
 
@@ -59,8 +61,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> This project is a online Book list where you can add books.
+> This project is a online todo list app where you can add and remove your daily tasks.
 > This project is build with HTML5,CSS3 and ES-6.
+> This project is configured with webpack 5.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +94,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository by using the command line : git clone https://github.com/tanveerisonline/booklist-es6-modules.git
+Clone this repository by using the command line : git clone https://github.com/tanveerisonline/microverse-todo-list-project.git
 
 ### Install
 
@@ -136,7 +139,7 @@ Github Pages.
 > Following are a few features i will add to the project in future.
 
 - [ ] I will add a database to this project in future where i can save user data.
-- [ ] I will add more functionality to this project like searching for books.
+- [ ] I will add more functionality to this project like searching.
 - [ ] I will update the interface and design of the project in future.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -177,9 +180,9 @@ I would like to give credit to the following people who have inspired my codebas
 
   - [Answer_1]:Thanks for the question you can find the answer at the top section of this readme.md file where i have explained everything.
 
-- **[Question_2]** Is this es-6 based ?
+- **[Question_2]** Have you used webpack in this project ?
 
-  - [Answer_2] Yes it's.
+  - [Answer_2] Yes i have used webpack 5 in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
