@@ -20,8 +20,14 @@
         <i id="refresh-button" class="fa fa-rotate"></i>
       </div>
       <div class="input-div">
-        <input type="text" placeholder="Add to your list..." />
-        <i id="add-button" class="fa fa-arrow-right-to-bracket"></i>
+        <input
+          type="text"
+          class="todo-input"
+          placeholder="Add to your list..."
+        />
+        <div id="add-button">
+          <i class="fa fa-arrow-right-to-bracket"></i>
+        </div>
       </div>
       <ul class="todo-list-items"></ul>
       <div class="clear-all-inputs">
@@ -34,6 +40,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>

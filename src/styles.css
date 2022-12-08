@@ -35,7 +35,8 @@ section {
   border-bottom: 1px solid rgb(217, 216, 216);
 }
 
-.input-div input {
+.input-div input,
+.todo-input-edit {
   height: 50px;
   outline: none;
   width: 98%;
@@ -47,7 +48,7 @@ section {
 }
 
 .input-div input::placeholder {
-  color: rgb(171, 171, 171);
+  color: rgb(182, 180, 180);
 }
 
 #add-button {
@@ -80,6 +81,7 @@ section {
   align-items: center;
   gap: 15px;
   color: #000;
+  width: 95%;
 }
 
 .todo-list-items li div .check {
@@ -106,6 +108,11 @@ section {
   color: rgb(93, 197, 246) !important;
 }
 
+.list-delete-btn {
+  cursor: pointer;
+  color: rgb(159, 159, 159);
+}
+
 .list-drag-btn {
   cursor: move;
   color: rgb(159, 159, 159);
@@ -116,6 +123,18 @@ section {
 }
 
 .task-completed {
-  color: rgb(113, 113, 113);
+  color: rgb(136, 136, 136);
   text-decoration: line-through;
+}
+
+.todo-input-edit {
+  width: 98%;
+  font-style: normal;
+  padding: 0;
+  color: #000;
+  cursor: default;
+}
+
+.todo-input-edit:focus {
+  cursor: text;
 }
